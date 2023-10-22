@@ -1,3 +1,5 @@
+-- Discord name: michaela_04253
+
 -- Q1. Over the years, are wages rising in all industries, or falling in some?
 
 CREATE OR REPLACE VIEW v_payroll_dev AS 
