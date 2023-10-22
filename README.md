@@ -49,22 +49,22 @@ In this task, I made a new column for and average price and for an average payro
 - In 2016, the average price of these categories: 'Konzumní brambory' were increasing significantely more than the average payroll.
 - In 2017, the average price of these categories: 'Máslo; Eidamská cihla; Vejce slepičí čerstvá' were increasing significantely more than the average payroll.
 - In 2018, the average price of these categories: 'Mrkev' were increasing significantely more than the average payroll.
-    
-5. Q: Does the level of GDP affect changes in wages and food prices? Or, if the GDP increases more significantly in one year, will this be reflected in food prices or wages in the same or the following year by a more significant increase?
+
+5.Q: Does the level of GDP affect changes in wages and food prices? Or, if the GDP increases more significantly in one year, will this be reflected in food prices or wages in the same or the following year by a more significant increase?
 In this table I sorted out data from t_michaela_kendikova_project_SQL_secondary_final and join it on itself. I did the same thing with table from previous task so I was able to compare one year's data with data from previous year. I decided to compare average percent difference of the price and payroll with the percent difference of Czech Republic's GDP . I filtered out the irrelevant rows with no data - which was caused due to using data within limited time period. In the end I compared the GDP difference with the current and next year's price difference. I did the same for payroll as well. As a significant increase I consider difference 5 % or more.
 - Based on the output I was not able to determine any relevant connection between the GDP increase and the prices or payroll increase.
 - In the newly created view named 'v_comparison_gdp_price_payroll', we can see that all the possible cases occured for example:
-PRICE
+   PRICE
     - In 2007, the GDP increased by 6 % and both the current and next year's prices increased as well by 9 %.
     - In 2008, the GDP increased by 3 %, the current prices increased by 9 % but the next year's prices decreased by 7 %.
     - In 2009, the GDP decreased by 5 %.
     - In 2010, the GDP increased by 2 %, the next year's prices increased by 5 %, but the current prices increase only by 1 %.
     - In 2015, the GDP increase by 5 %, but the current prices decreased by 1 % and the next year's prices decreased by 2 %.
-PAYROLL
+   PAYROLL
     - In 2007, the GDP increased by 6 % and the current payroll increased by 7 % and the next year's payroll increased as by 8 %.
     - In 2008, the GDP increased by 3 %, the current payroll increased by 8 % but the next year's payroll increase only by 3 %.
     - In 2009, the GDP decreased by 5 %.
     - In 2015, the GDP increase by 5 %, but the current payroll increased by only 3 % and the next year's payroll increased by only 4 %.
     - In 2016, the GDP increased by 3 %, the next year's payroll increased by 6 %, but the current payroll increase only by 4 %.
- PRICE x PAYROLL
+    PRICE x PAYROLL
     - Only in 2010 and 2011 did the trend in the development of GDP and prices not coincide with the trend in development of GDP and wages.
